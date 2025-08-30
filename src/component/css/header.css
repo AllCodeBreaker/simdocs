@@ -1,0 +1,10 @@
+.side-btn{
+    font-size: larger;
+    padding: 10px;
+    background-color: inherit;
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    left: 25px ;
+    border: 5px solid skyblue;
+}
