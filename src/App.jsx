@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 // import RenderMD from './component/RenderMD'
-import Router from './router/router'
+import Router from './router/Router'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {

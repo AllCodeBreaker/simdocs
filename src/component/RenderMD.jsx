@@ -1,9 +1,9 @@
 import ReactMarkdown from "react-markdown";
-import content from "./../content/java.md?raw";
+// import content from "./../content/java.md?raw";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 
-const RenderMD = ()=>{
+const RenderMD = ({content})=>{
     return(
         <>
             <div>

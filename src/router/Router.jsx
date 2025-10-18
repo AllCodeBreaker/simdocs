@@ -4,7 +4,7 @@ import {Routes, Route } from "react-router-dom"
 import Home from "../component/Home.jsx"
 import PythonRouter from "./PythonRouter.jsx";
 import JavaRouter from "./JavaRouter.jsx";
-
+import ChearSheet from "./CheatSheet.jsx"
 
 const Router = ()=>{
     return(
@@ -15,6 +15,7 @@ const Router = ()=>{
 
             <Route path="java/*" element={<JavaRouter />} />
 
+            <Route path="cs/*" element={<ChearSheet />} />
 
             <Route path="*" element={<h1>404</h1>} />
         
